@@ -5,7 +5,7 @@ import br.com.rossalli.sample.java.api.hero.service.dto.HeroDTO;
 
 import java.io.Serializable;
 
-public class HeroRequest implements Serializable {
+public class RequestHero  {
 
     private String name;
     private String codename;

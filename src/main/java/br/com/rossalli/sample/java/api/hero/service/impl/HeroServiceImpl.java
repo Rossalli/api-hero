@@ -14,13 +14,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class HeroServiceImpl implements HeroService {
+public class HeroServiceImplementacaoAAA implements HeroService {
 
     private final HeroRepository heroRepository;
-    private static final Logger log = LoggerFactory.getLogger(HeroServiceImpl.class);
+    private static final Logger log = LoggerFactory.getLogger(HeroServiceImplementacaoAAA.class);
 
     @Autowired
-    public HeroServiceImpl(HeroRepository heroRepository) {
+    public HeroServiceImplementacaoAAA(HeroRepository heroRepository) {
         this.heroRepository = heroRepository;
     }
 
